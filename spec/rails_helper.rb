@@ -20,8 +20,6 @@ Shoulda::Matchers.configure do |config|
 end
 
 RSpec.configure do |config|
-  config.include RequestSpecHelper, type: :request
-
   config.include FactoryBot::Syntax::Methods
 
   config.before(:suite) do
